@@ -7,7 +7,7 @@
     "allowSyntheticDefaultImports": true, // 用于允许从没有默认导出的模块中默认导入
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@my-threejs/*": ["src/*"]
     },
     "emitDeclarationOnly": true, // 只输出声明文件(ts 产物)
     "declaration": true, // 自动生成声明文件

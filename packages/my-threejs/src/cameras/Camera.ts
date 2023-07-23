@@ -1,5 +1,5 @@
-import Matrix4 from "@/core/Matrix4"
-import Vector3 from "@/core/Vector3"
+import Matrix4 from "@my-threejs/core/Matrix4"
+import Vector3 from "@my-threejs/core/Vector3"
 
 export default class Camera extends Vector3 {
 	up: Vector3

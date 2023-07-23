@@ -1,4 +1,4 @@
-import ColorMaterial from "@/materials/ColorMaterial";
+import ColorMaterial from "@my-threejs/materials/ColorMaterial";
 import Color from "./Color";
 import Vector3 from "./Vector3";
 import Vertex from "./Vertex";

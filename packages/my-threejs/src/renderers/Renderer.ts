@@ -1,17 +1,17 @@
 import Matrix4 from '../core/Matrix4'
 import Face3 from '../core/Face3'
 import Face4 from '../core/Face4'
-import Vector3 from '@/core/Vector3'
-import Scene from '@/scenes/Scene'
-import Camera from '@/cameras/Camera'
-import Mesh from '@/objects/Mesh'
-import Vertex from '@/core/Vertex'
-import Particle from '@/objects/Particle'
+import Vector3 from '@my-threejs/core/Vector3'
+import Scene from '@my-threejs/scenes/Scene'
+import Camera from '@my-threejs/cameras/Camera'
+import Mesh from '@my-threejs/objects/Mesh'
+import Vertex from '@my-threejs/core/Vertex'
+import Particle from '@my-threejs/objects/Particle'
 
 export default class Renderer {
 	matrix: Matrix4
 
-	viewport: Matrix4
+	viewport: HTMLCanvasElement | null
 	renderList: any[]
 
 	face3Pool: Face3[]
@@ -25,7 +25,7 @@ export default class Renderer {
 	constructor()
 	{
 		this.matrix = new Matrix4();
-		this.viewport = new Matrix4();
+		this.viewport = null;
 		this.renderList = []
 		this.face3Pool = new Array();
 		this.face4Pool = new Array();

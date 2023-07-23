@@ -1,4 +1,4 @@
-import ColorMaterial from "@/materials/ColorMaterial";
+import ColorMaterial from "@my-threejs/materials/ColorMaterial";
 import Object3D from "./Object3D";
 
 export default class Mesh extends Object3D {

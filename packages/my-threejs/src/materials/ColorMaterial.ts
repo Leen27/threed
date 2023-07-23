@@ -1,4 +1,4 @@
-import Color from "@/core/Color";
+import Color from "@my-threejs/core/Color";
 
 export default class ColorMaterial {
 	color: Color

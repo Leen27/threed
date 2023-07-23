@@ -26,6 +26,9 @@ importers:
 
   apps/my-threejs-app:
     dependencies:
+      my-threejs:
+        specifier: workspace:*
+        version: link:../../packages/my-threejs
       vue:
         specifier: ^3.3.4
         version: 3.3.4
@@ -45,6 +48,9 @@ importers:
 
   apps/web:
     dependencies:
+      my-threejs:
+        specifier: workspace:*
+        version: link:../../packages/my-threejs
       vue:
         specifier: ^3.3.4
         version: 3.3.4

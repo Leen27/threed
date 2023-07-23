@@ -1,6 +1,6 @@
-import Face4 from "@/core/Face4";
-import Geometry from "@/core/Geometry";
-import Vertex from "@/core/Vertex";
+import Face4 from "@my-threejs/core/Face4";
+import Geometry from "@my-threejs/core/Geometry";
+import Vertex from "@my-threejs/core/Vertex";
 
 export default class Plane extends Geometry {
 	constructor( width: number, height: number )
