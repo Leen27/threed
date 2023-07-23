@@ -1,7 +1,6 @@
 {
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "../../packages/third-party/Cesium-es6.d.ts"],
   "extends": "tsconfig/base.json",
-  "references": [{ "path": "./tsconfig.node.json" }],
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
     "allowJs": true,
