@@ -9,7 +9,6 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@my-threejs/*": ["../../packages/my-threejs/src/*"]
     },
 
     /* Bundler mode */

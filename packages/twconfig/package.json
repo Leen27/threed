@@ -1,0 +1,14 @@
+{
+    "name": "twconfig",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "main": "./src/index.ts",
+    "publishConfig": {
+      "access": "public"
+    },
+    "dependencies": {
+      "tsconfig": "workspace:*"
+    }
+  }
+  

@@ -10,7 +10,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, "src"),
-      '@my-threejs': resolve(__dirname, "../../packages/my-threejs/src")
+      '@ddd': resolve(__dirname, "../../packages/ddd/src")
     }
   }
 })
