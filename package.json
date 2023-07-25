@@ -9,15 +9,10 @@
   "devDependencies": {
     "@turbo/gen": "^1.9.7",
     "@types/node": "^20.4.4",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "postcss": "^8.4.27",
     "prettier": "^2.5.1",
-    "tailwindcss": "^3.3.3",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^5.0.2",
+    "eslint-config-custom": "link:packages/eslint-config-custom"
   },
   "packageManager": "pnpm@7.15.0",
   "name": "threed"

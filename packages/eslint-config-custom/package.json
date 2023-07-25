@@ -4,12 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-next": "^13.4.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-config-turbo": "^1.9.3"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "vite-plugin-eslint": "^1.8.1",
+    "@antfu/eslint-config": "^0.38.6",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-turbo": "^1.9.6",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
   }
 }

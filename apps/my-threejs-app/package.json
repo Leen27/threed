@@ -1,5 +1,5 @@
 {
-  "name": "my-threejs-app",
+  "name": "my-threejs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,9 +13,10 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
-    "vue-tsc": "^1.8.5",
-    "eslint-config-custom": "workspace:*"
+    "vue-tsc": "^1.8.5"
   }
 }
