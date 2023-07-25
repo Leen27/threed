@@ -1,0 +1,17 @@
+{
+    "name": "prettier-config",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "main": "./prettier-config.json",
+    "peerDependencies": {
+      "prettier": "2.5.1"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "dependencies": {
+      "tsconfig": "workspace:*"
+    }
+  }
+  
