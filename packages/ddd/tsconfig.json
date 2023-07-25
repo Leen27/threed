@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "../../packages/third-party/Cesium-es6.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "extends": "tsconfig/base.json",
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
@@ -7,13 +7,10 @@
     "allowSyntheticDefaultImports": true, // 用于允许从没有默认导出的模块中默认导入
     "baseUrl": ".",
     "paths": {
-      "@my-threejs/*": ["src/*"]
+      "@ddd/*": ["src/*"]
     },
     "emitDeclarationOnly": true, // 只输出声明文件(ts 产物)
     "declaration": true, // 自动生成声明文件
     "declarationDir": "dist/types", // 声明文件生成的目录
-    "jsx": "preserve",
-    "jsxFactory": "h",
-    "jsxFragmentFactory": "Fragment",
   }
 }
