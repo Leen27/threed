@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import Platform from './Platform.vue'
 
 class Car {}
 
