@@ -5,7 +5,7 @@ module.exports = {
     curly: ['error', 'all'],
     'vue/no-setup-props-destructure': 0,
     '@typescript-eslint/no-unused-vars': [
-      'error',
+      'warn',
       { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
     ],
     'prettier/prettier': [
