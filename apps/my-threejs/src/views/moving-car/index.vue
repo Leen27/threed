@@ -1,14 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import Platform from './Platform.vue'
+import type Car from './Car'
 
-class Car {}
-
-const car = ref<Car>({})
+const car = ref<Car | null>(null)
 </script>
 
 <template>
-  #321
   <Platform>
     <template #plane>
       <Object :item="car" />
