@@ -9,14 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "three": "^0.154.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@types/three": "^0.154.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
+    "vue-router": "^4.2.4",
     "vue-tsc": "^1.8.5"
   }
 }

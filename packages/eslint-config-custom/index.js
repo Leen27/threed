@@ -4,6 +4,10 @@ module.exports = {
   rules: {
     curly: ['error', 'all'],
     'vue/no-setup-props-destructure': 0,
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
+    ],
     'prettier/prettier': [
       'error',
       {
